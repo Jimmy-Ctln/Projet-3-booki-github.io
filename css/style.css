@@ -150,7 +150,7 @@ form {
     font-size: 18px;
     width: 100%;
     height: 49px;
-    text-align: center;
+    padding: 0px 0px 0px 10px;
     background-color: white;
     border: 1px solid #F2F2F2;
 }
@@ -158,7 +158,6 @@ form {
 #search_city::placeholder {
     color: black;
     font-weight: bold;
-    text-align: center;
 }
 
 
@@ -593,7 +592,6 @@ form {
     
     .filter_buttons {
         flex-wrap: wrap;
-        gap: 17px;
     }
 }
 
@@ -650,9 +648,12 @@ form {
         padding: 0 20px;
     }
 
+    form {
+        width: 100%;
+    }
+    
     .Search_bar {
         padding-left: 20px;
-        justify-content: center;
     }
 
     #search_city {
@@ -668,13 +669,12 @@ form {
     }
 
     .filter_buttons {
-        flex-wrap: wrap;
-        justify-content: center;
         gap: 17px;
     }
 
     .buttons_content {
-        inline-size: 200px;
+        inline-size: 230px;
+        flex-grow: 1;
     }
 
     .populaires {
@@ -736,10 +736,12 @@ form {
 
 }
 
-    @media (max-width: 550px) {
+
+
+    @media (max-width: 560px) {
         
         .buttons_content {
-            inline-size: 120px;
+            inline-size: 180px;
             padding: 0;
             margin: 0;
             gap: 5px;
@@ -754,6 +756,11 @@ form {
         }
     }
     
+    @media (max-width: 440px) {
+        .buttons_content {
+            inline-size: 140px;
+        }
+    }
 
     
     @media (max-width: 360px) {
