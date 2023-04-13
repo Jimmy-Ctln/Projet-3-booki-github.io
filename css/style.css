@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .main-container {
@@ -173,7 +174,7 @@ form {
 .btn_magnifying_glass {
     display: none;
     position: absolute;
-    left: 270px;
+    left: 230px;
     border-radius: 15px;
     border: 1px solid white;
     padding: 15px 16px;
@@ -653,6 +654,10 @@ form {
         width: 100%;
     }
 
+    #search_city {
+        font-size: 16px;
+    }
+
     #rechercher {
         display: none;
     }
@@ -663,14 +668,13 @@ form {
 
     .filter_buttons {
         flex-wrap: wrap;
+        justify-content: center;
         gap: 17px;
     }
 
     .buttons_content {
         inline-size: 200px;
     }
-
-
 
     .populaires {
         margin-top: 0;
