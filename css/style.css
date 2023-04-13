@@ -122,6 +122,7 @@ form {
 
 .Search_bar {
     display: flex;
+    justify-content: flex-start;
     margin-top: 35px;
     border-radius: 15px;
     text-align: center;
@@ -173,8 +174,8 @@ form {
 
 .btn_magnifying_glass {
     display: none;
-    position: absolute;
-    left: 230px;
+    position: relative;
+    left: -15px;
     border-radius: 15px;
     border: 1px solid white;
     padding: 15px 16px;
@@ -651,7 +652,7 @@ form {
 
     .Search_bar {
         padding-left: 20px;
-        width: 100%;
+        justify-content: center;
     }
 
     #search_city {
@@ -762,8 +763,7 @@ form {
         }
 
         .btn_magnifying_glass {
-        position: absolute;
-        left: 230px;
+        left: -10px;
     }
     
     .btn_magnifying_glass i {
