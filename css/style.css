@@ -440,7 +440,7 @@ form {
 
 .footer_txt {
     display: flex;
-    padding-left: 20px ;
+    padding: 0px 20px ;
     flex-direction: column;
     align-content: center;
 }
