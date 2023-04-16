@@ -392,7 +392,7 @@ form {
 /* activities in Marseille  */
 
 .activities_in_Marseille {
-    padding: 0 30px 0px 30px;
+    padding: 0px 30px;
 }
 
 .activities_in_Marseille h2 {
@@ -545,10 +545,6 @@ form {
     }
 
     .hebergements {
-        width: 100%;
-    }
-
-    .hebergements_cards img {
         width: 100%;
     }
 
@@ -724,11 +720,6 @@ form {
 
     .activities {
         flex-direction: column;
-    }
-
-    .activities_in_Marseille {
-        padding-left: 0;
-        padding: 0px 30px;
     }
 
     .activities_in_Marseille h2 {
