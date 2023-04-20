@@ -514,6 +514,14 @@ form {
     }
 }
 
+@media (max-width: 1070px) {
+    
+    .informations {
+        gap: 91px;
+        margin-top: 50px;
+    }
+}
+
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 
@@ -575,11 +583,6 @@ form {
         font-size: 13px;
     }
 
-
-    .informations {
-        gap: 91px;
-        margin-top: 50px;
-    }
 
 }
 
