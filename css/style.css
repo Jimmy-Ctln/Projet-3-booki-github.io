@@ -59,6 +59,16 @@ body {
     color: var(--main-bg-color)
 }
 
+/* icon color */
+
+.black_icon {
+    color: #000000;
+}
+
+.blue_icons {
+    color: var(--main-color);
+}
+
 
 /* header */
 
